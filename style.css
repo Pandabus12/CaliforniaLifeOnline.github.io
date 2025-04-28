@@ -1,0 +1,102 @@
+/* style.css */
+
+/* Global styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif; /* Modernere Schriftart */
+  background: url('img/hintergrundbild.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hauptbereich */
+main {
+  flex: 1; /* Nimmt den benötigten Platz ein */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(50, 50, 50, 0.9); /* Halbtransparentes Grau */
+    color: white;
+    padding: 25px 10px; /* Fügt mehr Padding oben hinzu */
+    text-align: center;
+    border-radius: 25px; /* Macht den Header oval */
+    border: 2px solid #ffffff; /* Weiße Umrandung */
+    max-width: 80%; /* Stellt sicher, dass der Header nicht zu breit wird */
+    margin: 10px auto; /* Zentrale Ausrichtung mit Margin */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Schatten für den Header */
+}
+
+nav a {
+    color: white; /* Linkfarbe */
+    margin-right: 15px; /* Abstand zwischen den Links */
+    text-decoration: none; /* Entfernt die Unterstrichung von Links */
+    transition: color 0.3s; /* Weiche Farbänderung */
+}
+
+nav a:hover {
+    color: #7289da; /* Hoverfarbe */
+}
+
+nav a.active {
+    font-weight: bold; /* Aktiver Link fett */
+}
+
+/* Navigation links */
+nav a {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* CTA button styles */
+.cta-button {
+  background-color: #7289da; /* Blauton für den Button */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animation hinzufügen */
+}
+
+.cta-button:hover {
+  background-color: #5b7fa8; /* Dunklerer Farbton bei Hover */
+  transform: translateY(-2px); /* Hebt den Button leicht an */
+}
+
+/* Section styles */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto; 
+  background-color: rgba(43, 37, 37, 0.692);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+/* Footer styles */
+footer {
+  background-color: #222; 
+  color: white; 
+  text-align: center; 
+  padding: 10px 5px; 
+  width: 100%; 
+  position: relative; 
+  bottom: 0; 
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 20px; 
+}
